@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Terada's nodeJS server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TERADA-DANTE/express.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "server"
+  ],
+  "author": "Terada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TERADA-DANTE/express/issues"
+  },
+  "homepage": "https://github.com/TERADA-DANTE/express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.12.1"
+  }
+}
